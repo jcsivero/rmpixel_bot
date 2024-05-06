@@ -1,0 +1,4 @@
+copiar esta carpeta "hacer_portable" y la carpeta "Python38" en la carpeta raiz donde está el proyecto, o sea, los ficheros del proyecto en python.  
+Ejecutar instalar.bat y después ejecutar.cmd, todo ello desde dentro de la carpeta hacer portable.
+
+El ejecutar.bat se debe de modificar con el ejecutable del fichero python a ejecutar y el fichero requirements.txt con las librerías necesarias del proyecto, para que se agreguen en el momento de ejecutar instalar.bat. El activate.bat es copiado automáticamente al entorno env creado, este activate.bat tiene las modificaciones necesarias para utilizar las librerías y version de python especificada, en este caso la 3.8
